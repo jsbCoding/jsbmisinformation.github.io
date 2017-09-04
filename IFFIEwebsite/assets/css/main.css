@@ -8,15 +8,9 @@
 
 
 html, body {
-
-
-
 margin:0;
 
 padding:0;
-
-
-
 }
 
 /* Start here */
@@ -158,7 +152,8 @@ body {
 }
 .menuItem {
   font-family: arial;
-  font-size: 150%;
+  font-size: 170%;
+
 }
 
 .menuItem a {
@@ -187,7 +182,7 @@ body {
   padding-bottom: 3vh;
 }
 .menuExpandedWindow a{
-  font-size: 14pt;
+  font-size: 115;
   margin-left: 3vh;
 
 }
@@ -206,9 +201,7 @@ body {
   flex-wrap: wrap;
   background-color: white;
   margin:auto;
-
   width: 70%;
-
 }
 .homeArticleA{
   background-color: white;
@@ -222,13 +215,13 @@ body {
 
 .homeArticleATitle{
   text-align: center;
-  font-size: 24pt;
+  font-size: 200%;
 }
 
 .homeArticleABody{
     padding-left: 5vh;
     padding-right: 5vh;
-  font-size: 14pt;
+  font-size: 125%;
 }
 .homeArticleAImg{
   padding: 1vh;
@@ -238,7 +231,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 30pt;
+  font-size: 250%;
   height: 100%;
 }
 .homeArticleForward{
@@ -246,7 +239,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   height: 100%;
-  font-size: 30pt;
+    font-size: 250%;
 }
 
 
@@ -259,14 +252,13 @@ body {
   flex-wrap: wrap;
   background-color: white;
   margin:auto;
-  border: 1px solid red;
   width: 90%;
   height: 27vh;
   padding: 1vh;
 }
 .homeNewsBar{
   padding-left: 2vh;
-  font-size: 20pt;
+  font-size: 170%;
 }
 .homeNews {
   padding-left: 2vh;
@@ -275,7 +267,7 @@ body {
 
 }
 .homeNewsItemTitle {
-  font-size: 20pt;
+  font-size: 170%;
   text-decoration: underline;
 }
 .homeNewsItemA {
@@ -288,19 +280,27 @@ body {
 
 }
 .homeEvent{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   margin-left: 1%;
-
+  background-color: gray;
+  font-size: 200%;
+  color: white;
+  height: 100%;
 }
 .homeEventTitle{
-
 }
 .homeEventA {
-
 }
 .homeEventB {
-
 }
 
 .homeEventC {
-
+}
+.darken{
+  color: white;
+  background-color: black
 }
