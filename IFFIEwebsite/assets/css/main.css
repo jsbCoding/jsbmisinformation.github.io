@@ -24,51 +24,7 @@ body {
   flex-wrap: wrap;
   background-color: black;
 }
-.menu{
-  background-color: white;
-  display: flex;
 
-  flex-wrap: wrap;
-  min-height: 12.5vh;
-
-}
-.menuItems {
-  margin-right: 5vh;
-  border: 1px solid red;
-  font-family: arial;
-  font-size: 150%;
-  text-align:justify;
-
-}
-
-.menuItems > a {
-  display:inline-block;
-}
-.menuItems:after {
-  content: '';
-  display:inline-block;
-  width: 100%;
-  height: 0;
-}
-.menuItems {
-  border: 1px solid red;
-  font-family: arial;
-  font-size: 150%;
-}
-.menuItems a {
-  color: black;
-  text-decoration: none;
-  text-align: justify;
-
-}
-.logoMenu{
-  width: 20vh;
-  height: 10vh;
-  background-color: black;
-  margin:0 auto;
-
-
-}
 .align_middle{
     align-items: center;
 }
@@ -116,4 +72,72 @@ body {
       border: 1px solid black;
       max-width: 100%;
 
+}
+
+
+/* ----------------------------------------menu */
+
+
+
+.menu{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 98.5vw;
+  min-height: 12.5vh;
+  padding: 1.5vh;
+}
+.menuItems {
+  margin-right: 5vh;
+  border: 1px solid red;
+  font-family: arial;
+  font-size: 150%;
+  text-align:justify;
+}
+.menuItems > a {
+  display:inline-block;
+}
+.menuItems:after {
+  content: '';
+  display:inline-block;
+  width: 100%;
+  height: 0;
+}
+.menuItems {
+  border: 1px solid red;
+  font-family: arial;
+  font-size: 150%;
+}
+.menuItems a {
+  color: black;
+  text-decoration: none;
+  text-align: justify;
+}
+.menuLogo {
+  width: 20vh;
+  height: 10vh;
+  background-color: black;
+  margin:0 auto;
+}
+.menuExpandedWindow{
+  flex: 0 0 100%;
+  display: none;
+}
+.menuExpandedWindow.show{
+  visibility: visible;
+  background-color: white;
+  display: flex;
+  min-height: 20%;
+
+}
+
+
+/* ----------------------------------------articles */
+
+.homeArticleSlide{
+  background-color: white;
+  display: flex;
+  border: 1px solid red;
+  margin-top: 10%;
 }
