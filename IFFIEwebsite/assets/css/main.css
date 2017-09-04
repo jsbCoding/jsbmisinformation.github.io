@@ -7,6 +7,17 @@
 
 
 
+html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+
+
+}
 
 /* Start here */
 
@@ -62,6 +73,11 @@ body {
   flex: 0 0 66.66%;
     border: 1px solid black;
 }
+.col_2of5{
+    flex: 0 0 40%;
+      border: 1px solid black;
+
+}
 .col_3of5{
     flex: 0 0 60%;
       border: 1px solid black;
@@ -73,10 +89,41 @@ body {
       max-width: 100%;
 
 }
+.col_1of10{
+    flex: 0 0 10%;
+      border: 1px solid black;
+      max-width: 100%;
 
+}
+.col_5of8{
+    flex: 0 0 50%;
+      border: 1px solid black;
+      max-width: 100%;
+}
+.col_3of8{
+    flex: 0 0 30%;
+      border: 1px solid black;
+      max-width: 100%;
+}
+
+/* ----------------------------------------padding bar */
+
+
+.homePaddingMenu{
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  margin-top: 10vh;
+}
+.homePaddingArticle{
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  margin-top:13vh;
+
+}
 
 /* ----------------------------------------menu */
-
 
 
 .menu{
@@ -84,19 +131,20 @@ body {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  width: 98.5vw;
-  min-height: 12.5vh;
-  padding: 1.5vh;
+  width: 100vw;
+  margin-top: -10vh;
+
 }
 .menuItems {
   margin-right: 5vh;
-  border: 1px solid red;
   font-family: arial;
   font-size: 150%;
-  text-align:justify;
+  min-height: 10vh;
 }
 .menuItems > a {
   display:inline-block;
+  margin-top: 3vh;
+  margin-left: 3vh;
 }
 .menuItems:after {
   content: '';
@@ -105,7 +153,6 @@ body {
   height: 0;
 }
 .menuItems {
-  border: 1px solid red;
   font-family: arial;
   font-size: 150%;
 }
@@ -124,20 +171,79 @@ body {
   flex: 0 0 100%;
   display: none;
 }
+.menuExpandedWindow a{
+  font-size: 14pt;
+  margin-left: 3vh;
+}
 .menuExpandedWindow.show{
   visibility: visible;
   background-color: white;
   display: flex;
   min-height: 20%;
-
 }
 
 
 /* ----------------------------------------articles */
 
-.homeArticleSlide{
-  background-color: white;
+.homeArticleDock{
   display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin:auto;
   border: 1px solid red;
-  margin-top: 10%;
+  width: 70%;
+  height: 30vh;
+}
+.homeArticleA{
+  padding: 2vh;
+  background-color: white;
+  height: 100%;
+}
+
+.homeArticleATitle{
+  font-size: 24pt;
+}
+.homeArticleABody{
+  font-size: 14pt;
+}
+.homeArticleAImg{
+  padding: 2vh;
+}
+.homeArticleBack{
+  padding-top: 15vh;
+  font-size: 24pt;
+}
+.homeArticleForward{
+    padding-top: 15vh;
+    font-size: 24pt;
+    text-align: right;
+}
+
+
+
+/* ----------------------------------------news and events */
+
+
+.homeInfoDock{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin:auto;
+  border: 1px solid red;
+  width: 100%;
+  height: 27vh;
+}
+
+.homeNews {
+
+}
+.homeEventA {
+
+}
+.homeEventB {
+
+}
+
+.homeEventC {
+
 }
