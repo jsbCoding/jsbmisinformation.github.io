@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Handles</title>
+      <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/terminal.css">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="assets/js/windows.js" ></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable({ handle: "p" });
+    $( "#draggable2" ).draggable({ cancel: "div.secondb"});
+    $( "div, p, policeText" ).disableSelection();
+  } );
+  </script>
+</head>
+<body>
+
+
+  <div id=draggable2 class="police">
+    X
+      <div class="policeText">
+  <div class="secondb">
+          Information classified for further investigation.
+            </div>
+      </div>
+
+
+
+</body>
+</html>

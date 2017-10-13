@@ -32,6 +32,11 @@ h4   {
   font-weight: normal;
   font-size: 9pt;
 }
+.redacted {
+  background-color: blue;
+  color: blue;
+
+}
 /* Start here */
 .content img{
   max-width: 100%;
@@ -104,6 +109,7 @@ h4   {
     margin-right: 50px;
 }
 .tableC{
+  margin-top: -20%;
   padding: 10px;
   padding-left: 0px;
   width: 40%;
@@ -216,4 +222,55 @@ h4   {
   border-right: 2px black solid;
   border-bottom: 2px black solid;
   padding: 10px;
+}
+.reportImg{
+  padding: 40px;
+}
+.reportImg img{
+
+  align-content: center;
+  max-width: 100%;
+}
+.pushLeft {
+  border:blue solid 1px;
+  width: 173px;
+  height: 100vh;
+  float: left;
+}
+.police {
+  position: fixed;
+
+  top: 30%;
+
+  width: 100%;
+  font-size: 50px;
+  color: white;
+  font-family: ;
+  font-weight: bold;
+}
+.secondb{
+  border: red 2px solid;
+}
+.policeText{
+  margin: auto;
+  width: 30%;
+  background-color: black;
+  border-top: 5px lightgray solid;
+  border-left: 5px lightgray solid;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  padding: 10px;
+  text-align: center;
+}
+/*windows*/
+.window{
+  padding: 0px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: grey;
+  color: red;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
 }
