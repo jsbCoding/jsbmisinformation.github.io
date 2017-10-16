@@ -1,6 +1,6 @@
 body{
   color: white;
-  font-family: 'newregular';
+
 }
 
 .boundWindow{
@@ -24,34 +24,70 @@ body{
   border-right: 1px solid grey;
 }
 .innerBoundWindow{
+  padding: 5px;
   display: flex;
+
   background-color: black;
   min-height: 100px;
 
 }
-.sidebar{
-  width: 15%;
+.innerBoundWindowWrap{
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  min-height: 100px;
 
 }
+
+.sidebar{
+  width: 15%;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+}
 .homePage{
-  width: 60%;
+  position: fixed;
+  width: 50%;
+  top: 10%;
+  left: 20%;
+}
+.linksBar{
+
+  top: 40%;
+  left: 50%;
+  position: fixed;
+
+  width: 35%;
 }
 .homeLogo{
+  top: 5%;
+  left: 30%;
+  position: fixed;
   width: 20%;
+
+}
+.blue {
+  background-color: blue;
 }
 .homeLogo img{
+  background-color: black;
+
 
 }
 .homeLogoText{
+  padding-left: 3px;
   position: relative;
   display: inline-block;
 
-  border: solid red 1px;
+
 }
-.content{
+.homeLogoText .content{
+  padding-top: 25px;
+
   display: inline-block;
   vertical-align: middle;
-    border: solid red 1px;
+
 
 
 }

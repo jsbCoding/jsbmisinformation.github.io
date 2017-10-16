@@ -18,12 +18,12 @@ li {
   padding: 0;
 }
 a {
-  color: darkblue;
+  color: blue;
 }
 h3 {
   text-align: right;
   color: white;
-  font-family: times;
+  font-family: lucida console;
   letter-spacing: 1px;
 }
 h4   {
@@ -48,14 +48,14 @@ h4   {
 }
 
 .fontTimes{
-    font-family: times;
+    font-family: lucida console;
 }
 .col1of1 {
   flex: 0 0 100%;
 }
 .col1of2{
   flex: 0 0 50%;
-  
+
 
 }
 .col2of3{
@@ -99,7 +99,7 @@ h4   {
 .homeTitle{
   display: flex;
   width: 40%;
-  font-family: times;
+  font-family:  lucida console;
   font-size: 25px;
 }
 .homeTitle{
@@ -125,29 +125,44 @@ h4   {
   flex-wrap: wrap;
 }
 .articleTitle{
-  color: darkblue;
-  font-family: Arial;
+  color: white;
+
   font-weight: bold;
   font-size: 24px;
     padding: 20px;
-    padding-right: 100px;
+    padding-right: 40px;
 }
 .article{
-
-  font-size: 16px;
+  font-size: 10pt;
   margin-right: 5px;
   padding-left: 20px;
-  padding-right: 50px;
+  padding-right: 20px;
+}
+.article a {
+  color:red;
+}
+.articleTitle .redacted {
+  color: black;
+  background-color: black;
 }
 .articleImg{
-
+  margin-left: 50%;
   padding: 5%;
-  background-color: lightgray;
-  border-top: 2px white solid;
+  background-color: blue;
+    border-top: 2px white solid;
 
-  border-left: 2px white solid;
-  border-right: 2px black solid;
-  border-bottom: 2px black solid;
+    border-left: 2px white solid;
+    border-right: 2px gray solid;
+    border-bottom: 2px gray solid;
+}
+.articleImg a{
+  color: white
+
+}
+.articleImg .redacted {
+  background-color: black;
+  color: black;
+  text-decoration: none;
 }
 .articleImg img{
   border-top: 2px white solid;
@@ -171,21 +186,22 @@ h4   {
 
 }
 .infoItem {
-  background-color: lightgray;
+  background-color: black;
   border-top: 2px white solid;
 
   border-left: 2px white solid;
-  border-right: 2px black solid;
-  border-bottom: 2px black solid;
+  border-right: 2px white solid;
+  border-bottom: 2px white solid;
   text-align: center;
-  width: 40%;
+  min-width: 40%;
+  max-width: 40%;
   height: 50px;
   vertical-align: center;
   position: block;
   padding: 10px;
 }
 .infoItem:hover{
-  background-color: white;
+  background-color: black;
   border-top: 3px black solid;
   border-left: 3px black solid;
   border-right: 2px lightgray solid;
@@ -215,7 +231,7 @@ h4   {
 }
 
 .reportBodyText {
-  font-size: 12pt;
+  font-size: 1pt;
   background-color: lightgray;
   border-top: 2px white solid;
   border-left: 2px white solid;
@@ -224,7 +240,7 @@ h4   {
   padding: 10px;
 }
 .reportImg{
-  padding: 40px;
+  padding: 20px;
 }
 .reportImg img{
 
@@ -245,7 +261,7 @@ h4   {
   width: 100%;
   font-size: 50px;
   color: white;
-  font-family: ;
+
   font-weight: bold;
 }
 .secondb{

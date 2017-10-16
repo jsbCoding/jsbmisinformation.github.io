@@ -1,22 +1,12 @@
 @font-face {
-    font-family: 'newregular';
-    src: url('whitrabt-webfont.eot');
-    src: url('whitrabt-webfont.eot?#iefix') format('embedded-opentype'),
-         url('whitrabt-webfont.woff2') format('woff2'),
-         url('whitrabt-webfont.woff') format('woff'),
-         url('whitrabt-webfont.ttf') format('truetype'),
-         url('whitrabt-webfont.svg#newregular') format('svg');
+    font-family: 'lucida console';
+    src: url('lucon-webfont.woff2') format('woff2'),
+         url('lucon-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-@font-face {
- font-family: "Open Sans";
- src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-}
-
-.terminal{
-  font-family: 'newregular';
+body {
+  font-family: 'lucida console';  
 }
