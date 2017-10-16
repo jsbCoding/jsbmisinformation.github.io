@@ -1,0 +1,57 @@
+body{
+  color: white;
+  font-family: 'newregular';
+}
+
+.boundWindow{
+  border-top: 3px solid white;
+  border-bottom: 3px solid grey;
+  border-left: 3px solid white;
+  border-right: 3px solid grey;
+  background-color: lightgray;
+
+}
+.escape{
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  color: black;
+  text-align: center;
+  background-color: lightgray;w
+  border-top: 1px solid white;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid white;
+  border-right: 1px solid grey;
+}
+.innerBoundWindow{
+  display: flex;
+  background-color: black;
+  min-height: 100px;
+
+}
+.sidebar{
+  width: 15%;
+
+}
+.homePage{
+  width: 60%;
+}
+.homeLogo{
+  width: 20%;
+}
+.homeLogo img{
+
+}
+.homeLogoText{
+  position: relative;
+  display: inline-block;
+
+  border: solid red 1px;
+}
+.content{
+  display: inline-block;
+  vertical-align: middle;
+    border: solid red 1px;
+
+
+}

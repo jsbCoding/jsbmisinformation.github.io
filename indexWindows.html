@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jQuery UI Draggable - Handles</title>
       <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/terminal.css">
+      <link rel="stylesheet" href="assets/css/terminal.css">
+      <link rel="stylesheet" href="assets/css/home.css">
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
@@ -17,23 +18,56 @@
   <script>
   $( function() {
     $( "#draggable" ).draggable({ handle: "p" });
-    $( "#draggable2" ).draggable({ cancel: "div.secondb"});
-    $( "div, p, policeText" ).disableSelection();
+    $( "#draggable1" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable2" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable3" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable4" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "div, p, boundWindow" ).disableSelection();
   } );
   </script>
 </head>
+
 <body>
 
-
-  <div id=draggable2 class="police">
-    X
-      <div class="policeText">
-  <div class="secondb">
-          Information classified for further investigation.
-            </div>
+  <div id=draggable1 class="boundWindow sidebar">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        Information classified for further investigation.
       </div>
+  </div>
 
+  <div id=draggable2 class="boundWindow sidebar">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        Information classified for further investigation.
+      </div>
+  </div>
 
+  <div id=draggable3 class="boundWindow homePage">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        <div class="col1of2">
+                  Information classified for further investigation.
+        </div>
+        <div class="col1of2">
+        Information classified for further investigation.
+        </div>
+
+      </div>
+  </div>
+
+  <div id=draggable4 class="boundWindow homeLogo">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        <img src="assets/images/menuLogoMin.png" style="width: 150px; padding: 5px;"alt="">
+        <div class="homeLogoText ">
+          <span class="content terminal">
+              The International Foundation for Interstellar Exploration.
+          </span>
+
+        </div>
+      </div>
+  </div>
 
 </body>
 </html>
