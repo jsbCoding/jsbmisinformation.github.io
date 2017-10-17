@@ -9,6 +9,7 @@ body{
   border-left: 3px solid white;
   border-right: 3px solid grey;
   background-color: lightgray;
+  cursor: pointer;
 
 }
 .escape{
@@ -65,10 +66,14 @@ body{
   left: 30%;
   position: fixed;
   width: 20%;
-
+  z-index: 2;
 }
 .blue {
   background-color: blue;
+}
+.blue .redacted {
+  background-color: black;
+  color: black;
 }
 .homeLogo img{
   background-color: black;

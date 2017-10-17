@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Draggable - Handles</title>
+  <title>IFIE | The International Foundation of Interstellar Exploration</title>
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/terminal.css">
       <link rel="stylesheet" href="assets/css/home.css">
@@ -11,27 +11,48 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <style>
-
+    #containment-wrapper { width: 100%; height:100vh; border:5px solid #ccc; border-right: solid 5px black;border-bottom: 20px solid blue;padding: 10px; }
+    #containment-wrapper:before { content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 20px;
+  border: 3px solid gray;}
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="assets/js/windows.js" ></script>
+
   <script>
   $( function() {
     $( "#draggable" ).draggable({ handle: "p" });
     $( "#draggable1" ).draggable({ cancel: "div.innerBoundWindow"});
-    $( "#draggable2" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable2" ).draggable({ cancel: "div.innerBoundWindow" });
     $( "#draggable3" ).draggable({ cancel: "div.innerBoundWindow"});
     $( "#draggable4" ).draggable({ cancel: "div.innerBoundWindow"});
     $( "#draggable5" ).draggable({ cancel: "div.innerBoundWindow"});
     $( "#draggable6" ).draggable({ cancel: "div.innerBoundWindow"});
     $( "#draggable7" ).draggable({ cancel: "div.innerBoundWindow"});
+
+    $( "#draggable1" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable2" ).draggable({ containment: "#containment-wrapper", scroll: false });
+    $( "#draggable3" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable4" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable5" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable6" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable7" ).draggable({ containment: "#containment-wrapper", scroll: false});
     $( "div, p, boundWindow" ).disableSelection();
   } );
   </script>
 </head>
 
-<body>
+<body id=containment-wrapper>
+  <div class="warningBox">
+    <img src="assets/images/warningIcon.png" style="float: right"alt="">
+    The content of this site is under investigation. Information is not intended for public release.
 
+  </div>
   <div id=draggable1 class="boundWindow sidebar">
     <div class="escape">X</div>
       <div class="innerBoundWindow">
