@@ -18,19 +18,47 @@ body{
   margin: 2px;
   color: black;
   text-align: center;
-  background-color: lightgray;w
+  background-color: lightgray;
   border-top: 1px solid white;
   border-bottom: 1px solid grey;
   border-left: 1px solid white;
   border-right: 1px solid grey;
 }
+.escape{
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  color: black;
+  text-align: center;
+  background-color: lightgray;
+  border-top: 1px solid white;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid white;
+  border-right: 1px solid grey;
+}
+.windowFiller{
+
+  height: 15px;
+  margin: 10px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  background-color: lightgray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
 .innerBoundWindow{
   padding: 5px;
-  display: flex;
-
   background-color: black;
   min-height: 100px;
-
+}
+.flexinnerBoundWindow{
+  display: flex;
+  padding: 5px;
+  background-color: black;
+  min-height: 100px;
 }
 .innerBoundWindowWrap{
   padding: 5px;

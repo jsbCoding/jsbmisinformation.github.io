@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFIE | The International Foundation of Interstellar Exploration</title>
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/terminal.css">
+      <link rel="stylesheet" href="assets/css/home.css">
+
+
+
+  <style>
+    #containment-wrapper { width: 100%; height:100vh; border:5px solid #ccc; border-right: solid 5px black;border-bottom: 20px solid blue;padding: 10px; }
+    #containment-wrapper:before { content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 20px;
+  border: 3px solid gray;}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="assets/js/windows.js" ></script>
+<script src="assets/js/main.js" ></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable({ handle: "p" });
+    $( "#draggable1" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable2" ).draggable({ cancel: "div.innerBoundWindow" });
+    $( "#draggable3" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable4" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable5" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable6" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable7" ).draggable({ cancel: "div.innerBoundWindow"});
+
+    $( "#draggable1" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable2" ).draggable({ containment: "#containment-wrapper", scroll: false });
+    $( "#draggable3" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable4" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable5" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable6" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable7" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "div, p, boundWindow" ).disableSelection();
+  } );
+  </script>
+</head>
+
+<body id=containment-wrapper>
+  <div class="warningBox">
+    <img src="assets/images/warningIcon.png" style="float: right"alt="">
+    The content of this site is under investigation. Information is not intended for public release.
+  </div>
+
+  <div id=draggable1 class="boundWindow sidebar">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <span class="redacted">3</span> Oct 199<span class="redacted">9</span>
+          <br><br>
+            <span class="redacted">The Moon project of</span>IFIE as an organization is dedicated to expanding our understanding of space through acts of research and expedition.
+            <br>
+            <ul style= "list-style-type: none">
+              <li> <b> Releases: </b></li>
+              <li><a href="indexWindows.html">Home</a> </li>
+              <li><a href="indexReports.html">Reports</a> </li>
+              <li><a href="indexNews.html">News</a></li>
+            </ul>
+            <ul style= "list-style-type: none">
+              <li> <b> About: </b> </li>
+              <li> <a href="history.html">IFIE history</a> </li>
+              <li><a href="board.html">The Board</a>  </li>
+            </ul>
+            <ul style= "list-style-type: none">
+              <li><b> Education:</b> </li>
+              <li><a href="program.html">Our Space Program </a> </li>
+              <li><a href="equipment.html"> Our Equipment </a></li>
+            </ul>
+        </div>
+      </div>
+  </div>
+
+  <div id=draggable2 class="boundWindow homeLogo">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow blue">
+        <img src="assets/images/menuLogoMin.png" style="width: 150px; padding: 5px;"alt="">
+        <div class="homeLogoText ">
+          <span class="content terminal">
+              The International Foundation for Interstellar Exploration.
+          </span>
+
+        </div>
+      </div>
+  </div>
+
+  <div  id=draggable3 class="boundWindow reportHeadlineA">
+    <div class="escape"></div>
+      <div class="innerBoundWindow black">
+
+        <div class="content">
+            dsdasd
+            <div class="readMoreButton">
+              Read More.
+            </div>
+        </div>
+      </div>
+  </div>
+  <div  id=draggable4 class="boundWindow reportHeadlineB">
+    <div class="escape"></div>
+      <div class="innerBoundWindow black">
+
+        <div class="content">
+            dsdasd
+            <div class="readMoreButton">
+              Read More.
+            </div>
+        </div>
+      </div>
+  </div>
+  <div  id=draggable5 class="boundWindow reportHeadlineC">
+    <div class="escape"></div>
+      <div class="innerBoundWindow black">
+
+        <div class="content terminal">
+            dsdasd
+            <div class="readMoreButton">
+              Read More.
+            </div>
+        </div>
+      </div>
+  </div>
+  <div  id=draggable6 class="boundWindow reportWindowA hide">
+    <div class="escape"></div>
+      <div class="innerBoundWindow reportScroll blue">
+
+        <div class="content reportText">
+          <div class="reportTitleText">
+            <span class="redacted">Figma</span> Particles, Light Prisms and the new <span class="redacted">Franklin Drive</span>.
+          </div>
+          <div class="tableDivider">
+
+          </div>
+          <div class="reportBodyText  fontTimes">
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+              Members of the <span class="redacted">TCCR board</span> have as of 19<span class="redacted">98</span>, have detailed their findings about the two phenomena that act as the key structures for our current space program.
+            </div>
+            <div class="paragraph">
+                 <span class="redacted">Leonard Franklin</span>'s report on both shows progress in understanding the ways that interstellar travel can be achieved.
+                 <div class="reportImg">
+                   <img src="assets/images/articleAImg1.jpg" alt="">
+                   <div class="reportImgCaption">
+                       A diagram of <span class="redacted">Figma</span> waves
+                   </div>
+
+
+
+                 </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+  </div>
+</body>
+</html>
