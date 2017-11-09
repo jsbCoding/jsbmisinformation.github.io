@@ -2,13 +2,33 @@ $(document).ready(function() {
 
 
 // Add jQuery here
+//X BUTTON//////////
+$('.xButton.escape').click(function(){
+  var object =  $(this).parent();
 
+  $(object).removeClass('show');
+    $(object).addClass('hide');
+
+});
 //REPORTS///////////
 
-$('.content .readMoreButton').click(function(){
+$('.content .readMoreButtonA').click(function(){
   $('.boundWindow.reportWindowA').removeClass('hide');
   $('.boundWindow.reportWindowA').addClass('show');
 });
+
+$('.content .readMoreButtonB').click(function(){
+  $('.boundWindow.reportWindowB').removeClass('hide');
+  $('.boundWindow.reportWindowB').addClass('show');
+});
+
+$('.content .readMoreButtonC').click(function(){
+  $('.boundWindow.reportWindowC').removeClass('hide');
+  $('.boundWindow.reportWindowC').addClass('show');
+});
+
+//NEWS/////////
+
 
 //BOARD MEMBERS///////
 
