@@ -252,7 +252,7 @@ h4   {
   top: 30%;
 
   width: 100%;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 
   font-weight: bold;
@@ -354,19 +354,19 @@ h4   {
 .reportHeadlineA{
   width: 30%;
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 27%;
+  top: 40%;
 }
 .reportHeadlineB{
-  left: 40%;
-  top: 25%;
+  left: 50%;
+  top: 30%;
     width: 30%;
     position: absolute;
 }
 
 .reportHeadlineC{
-  left: 5%;
-  top: 30%;
+  left: 10%;
+  top: 50%;
     width: 30%;
     position: absolute;
 }
@@ -472,4 +472,122 @@ h4   {
 .logoInner{
  width: 100%;
  float: left;
+}
+.eq {
+   text-align: center;
+   margin: auto;
+}
+.equipmentWindowA{
+  width: 40%;
+  position: absolute;
+  left: 59%;
+  top: 2vh;
+  height: 93vh;
+}
+.equipmentWindowB{
+  width: 40%;
+  position: absolute;
+  left: 59%;
+  top: 2vh;
+  height: 93vh;
+}
+.equipmentWindowC{
+  width: 40%;
+  position: absolute;
+  left: 59%;
+  top: 2vh;
+  height: 93vh;
+}
+.equipmentWindowD{
+  width: 40%;
+  position: absolute;
+  left: 59%;
+  top: 2vh;
+  height: 93vh;
+}
+.eqreportScroll{
+  height: 89vh;
+  position:absolute;
+  overflow: scroll;
+
+}
+.eqHeadlineA{
+  width: 30%;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+.eqHeadlineB{
+  width: 30%;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+}
+.eqHeadlineC{
+  width: 30%;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+.eqHeadlineD{
+  width: 30%;
+  position: absolute;
+  left: 20%;
+  top: 55%;
+}
+
+.imgEq1{
+    position: absolute;
+  max-width: 12%;
+  left: 10%;
+  top: 20%;
+}
+.imgEq2{
+    position: absolute;
+  max-width: 16%;
+  left: 20%;
+  top: 10%;
+}
+
+.imgEq3{
+    position: absolute;
+  max-width: 20%;
+  left: 60%;
+  top: 10%;
+}
+.imgEq4{
+    position: absolute;
+  max-width: 15%;
+  left: 10%;
+  top: 10%;
+}
+.imgEq5{
+    position: absolute;
+  max-width: 20%;
+  left: 32%;
+  top: 25%;
+}
+.imgEq6{
+    position: absolute;
+  max-width: 10%;
+  left: 38%;
+  top: 40%;
+}
+.imgEq7{
+    position: absolute;
+  max-width: 15%;
+  left: 29%;
+  top: 30%;
+}
+.imgEq8{
+    position: absolute;
+  max-width: 25%;
+  left: 50%;
+  top: 40%;
+}
+.imgEq9{
+    position: absolute;
+  max-width: 10%;
+  left: 70%;
+  top: 33%;
 }

@@ -48,7 +48,45 @@ $('.readMoreButtonC').click(function(){
   $('.imgReportC3').addClass('show');
 
 });
+//EQ/////////
 
+$('.eq.readMoreButtonA').click(function(){
+  $('.equipmentWindowA').removeClass('hide');
+  $('.equipmentWindowA').addClass('show');
+
+  $('.imgEq1').removeClass('hide');
+  $('.imgEq1').addClass('show');
+  $('.imgEq2').removeClass('hide');
+  $('.imgEq2').addClass('show');
+});
+
+$('.eq.readMoreButtonB').click(function(){
+  $('.equipmentWindowB').removeClass('hide');
+  $('.equipmentWindowB').addClass('show');
+
+  $('.imgEq3').removeClass('hide');
+  $('.imgEq3').addClass('show');
+  $('.imgEq4').removeClass('hide');
+  $('.imgEq4').addClass('show');
+  $('.imgEq5').removeClass('hide');
+  $('.imgEq5').addClass('show');
+  $('.imgEq6').removeClass('hide');
+  $('.imgEq6').addClass('show');
+});
+
+$('.eq.readMoreButtonC').click(function(){
+  $('.equipmentWindowC').removeClass('hide');
+  $('.equipmentWindowC').addClass('show');
+
+  $('.imgEq7').removeClass('hide');
+  $('.imgEq7').addClass('show');
+  $('.imgEq8').removeClass('hide');
+  $('.imgEq8').addClass('show');
+});
+$('.eq.readMoreButtonD').click(function(){
+  $('.equipmentWindowD').removeClass('hide');
+  $('.equipmentWindowD').addClass('show');
+});
 //NEWS/////////
 
 

@@ -1,124 +1,358 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    <link rel="stylesheet" href="assets/css/main.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFIE | The International Foundation of Interstellar Exploration</title>
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/terminal.css">
+      <link rel="stylesheet" href="assets/css/home.css">
+      <link rel="stylesheet" href="assets/css/text.css">
 
-    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
-    <script src="assets/js/main.js" charset="utf-8"></script>
-  </head>
-  <body>
 
-    <div class="tableR">
-      <img src="assets/images/menuLogo.png" style= "max-width: 60%;" alt="">
-      <h3>3 Oct 1999</h3>
-      <h4>IFIE as an organization is dedicated to expanding our understanding of space through acts of research and expedition.</h4>
 
-      <div class="tableDivider">
+  <style>
+    #containment-wrapper { width: 100%; height:100vh; border:5px solid #ccc; border-right: solid 5px black;border-bottom: 20px solid blue;padding: 10px; }
+    #containment-wrapper:before { content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 20px;
+  border: 3px solid gray;}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="assets/js/windows.js" ></script>
+<script src="assets/js/main.js" ></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable({ handle: "p" });
+    $( "#draggable1" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable2" ).draggable({ cancel: "div.innerBoundWindow" });
+    $( "#draggable3" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable4" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable5" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable6" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable7" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable8" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable9" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable10" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable11" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable12" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable13" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable14" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable15" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable16" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable17" ).draggable({ cancel: "div.innerBoundWindow"});
+    $( "#draggable18" ).draggable({ cancel: "div.innerBoundWindow"});
 
+    $( "#draggable1" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable2" ).draggable({ containment: "#containment-wrapper", scroll: false });
+    $( "#draggable3" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable4" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable5" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable6" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable7" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable8" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable9" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable10" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable11" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable12" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable13" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable14" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable15" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable16" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "#draggable17" ).draggable({ containment: "#containment-wrapper", scroll: false});
+    $( "div, p, boundWindow" ).disableSelection();
+  } );
+  </script>
+</head>
+
+<body id=containment-wrapper>
+  <div class="warningBox">
+    <img src="assets/images/warningIcon.png" style="float: right"alt="">
+    The content of this site is under investigation. Information is not intended for public release.
+  </div>
+
+  <div id=draggable1 class="boundWindow sidebar">
+    <div class="escape">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <span class="redacted">3</span> Sept 199<span class="redacted">9</span>
+          <br><br>
+            <span class="redacted">The Moon project of</span>IFIE as an organization is dedicated to expanding our understanding of space through acts of research and expedition.
+            <br>
+            <ul style= "list-style-type: none">
+              <li><a href="indexWindows.html">Home</a> </li>
+              <li> <b> Releases: </b></li>
+              <li><a href="indexReports.html">Reports</a> </li>
+              <li><a href="newsIndex.html">News</a></li>
+
+            </ul>
+            <ul style= "list-style-type: none">
+              <li> <b> About: </b> </li>
+              <li> <a href="history.html">IFIE history</a> </li>
+              <li><a href="board.html">The Board</a>  </li>
+            </ul>
+            <ul style= "list-style-type: none">
+              <li><b> Education:</b> </li>
+              <li><a href="equipment.html"> Our Equipment </a></li>
+
+            </ul>
+        </div>
       </div>
-      <ul style= "list-style-type: none">
-        <li> <b> Releases: </b></li>
-        <li><a href="reports/index.html">Reports</a> </li>
-        <li><a href="news/index.html">News</a></li>
-  
-      </ul>
-      <ul style= "list-style-type: none">
-        <li> <b> About: </b> </li>
-        <li> <a href="history.html">IFIE history</a> </li>
-        <li><a href="board.html">The Board</a>  </li>
-        <li> <a href="team.html">The Team</a> </li>
-      </ul>
-      <ul style= "list-style-type: none">
-        <li><b> Education:</b> </li>
-        <li><a href="program.html">Our Space Program </a> </li>
-        <li><a href="equipment.html"> Our Equipment </a></li>
-        <li><a href="meetteam.html"> Meet the team</a></li>
-      </ul>
-    </div>
+  </div>
 
-    <div class="homeTitle">
+
+  <div id=draggable2 class="boundWindow homeLogo">
+    <div class="escape xButton">X</div>
+      <div class="flexinnerBoundWindow blue">
+        <img src="assets/images/pixellogoNew.png" style="width: 150px; padding: 5px;"alt="">
+        <div class="homeLogoText ">
+          <span class="content terminal">
+              The International Foundation for Interstellar Exploration.
+          </span>
+
+        </div>
+      </div>
+  </div>
+
+  <div  id=draggable3 class="boundWindow eqHeadlineA">
+    <div class="escape"></div>
+      <div class="innerBoundWindow blue eq">
 
         <div class="content">
-          <img src="assets/images/homeLogo.png" style="max-width: 120%;" alt="">
+            <span class="redacted">nano</span> helmet.
+            <br>
+            <br>
+            <div class="readMoreButtonA infoItem eq">
+              Read More.
+            </div>
         </div>
+      </div>
+  </div>
+  <div  id=draggable4 class="boundWindow eqHeadlineB">
+    <div class="escape"></div>
+      <div class="innerBoundWindow blue eq">
 
         <div class="content">
-          The International Foundation of Interstellar Travel
-        </div>
-
-    </div>
-
-
-
-    <!-- article dock -->
-
-    <div class="row">
-
-      <div class="tableDivider">
-      </div>
-
-      <div class="col1of2 column">
-        <div class=" col2of3">
-          <div class="articleTitle col1of1">
-            <div class="content">
-                New Discovery on Orion B
+            Rocket <span class="redacted">radio-propelled</span> boosters. <span class="redacted">Joseph Graham </span>for the <span class="redacted">Miller </span> Research Group.
+            <br>
+            <br>
+            <div class="readMoreButtonB infoItem eq">
+              Read more
             </div>
-          </div>
-          <div class="article col1of1">
-            <div class="content fontTimes">
-              Scientists have discovered a new chemical layer on the cloud coverage surrounding Orion B4. According to the detailed press report, most of the cloud remains highly toxic to the human body. Experts discuss its origin, and possible further scientific usage. <a href="articles/articleA.html">read more</a>
-            </div>
-          </div>
-        </div>
-        <div class="col1of3 column">
-          <div class="articleImg">
-            <div class="content fontTimes">
-              <img src="assets/images/homeArticleAImg.jpg" alt="">
-              <br>
-              <br>
-              Interested in Orion B's development? read more about our current station in the news section.
-              <ul>
-                <li><a href="articles/articleB.html">New station established on Orion B</a></li>
-                <li> <a href="articles/articleC.html">Carl Magnus announces updates to IFIE space protocols</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
+  </div>
+  <div  id=draggable5 class="boundWindow eqHeadlineC">
+    <div class="escape"></div>
+      <div class="innerBoundWindow blue">
 
-      <div class="col1of2">
-        <div class="tableL">
-          <div class="row">
-            <div class="col1of2">
+        <div class="content terminal eq">
+             <span class="redacted">Asompetric</span> Scanner (Class)<span class="redacted"> C </span>
+            <br>
+            <br>
+            <div class="readMoreButtonC infoItem eq">
+              Read More.
             </div>
-          </div>
-          <img src="assets/images/homeIcon1.png"style="width: 10%; height: 10%;" alt="">
-          <div class="infoItem">
-            View the site map
-          </div>
-            <img src="assets/images/homeIcon2.png"style="width: 10%; height: 10%;" alt="">
-          <div class="infoItem">
-            Read our terms and conditions of use
-          </div>
-          <div class="infoDivider">
-          </div>
-            <img src="assets/images/homeicon3.png"style="width:10%; height: 50px;" alt="">
-          <div class="infoItem">
-            View our generous sponsors
-          </div>
-            <img src="assets/images/homeicon4.png"style="width: 10%; height: 50px;" alt="">
-          <div class="infoItem">
-            Contact us
+        </div>
+      </div>
+  </div>
+  <div  id=draggable6 class="boundWindow eqHeadlineD">
+    <div class="escape"></div>
+      <div class="innerBoundWindow blue">
+
+        <div class="content terminal eq">
+             <span class="redacted">Grav</span> Suits UX-29<span class="redacted"> 123049141 </span>
+            <br>
+            <br>
+            <div class="readMoreButtonD infoItem eq">
+              Read More.
+            </div>
+        </div>
+      </div>
+  </div>
+  <div  class="boundWindow equipmentWindowA hide">
+    <div class="escape xButton">X</div>
+      <div class="innerBoundWindow eqreportScroll black">
+
+        <div class="content reportText">
+
+          <div class="  fontTimes">
+            <div class="paragraph">
+              <span class="redacted">
+            4BDQSS2C P62MQB99 MX9TRAMH 5XCL5FKY UWYU9YXR ZJ8KQ5BC 3AF58RM3 WJPPNSHT WLSU6ZG2 AHF4FGFM XLYG3Y T6 W3HRG86Z UYC87H8V M7JMCN4dH T4J7FW52 VN4FA5HR HF]dffFSA6VB 2BSTLWF6 ECBUBSNW E3EUKMN7 WRV2L4EJ RKFFZW4Y BEWZU4K Q L 6YC2VV5 4DX342Q9 6B75VSLH 9QHDJKNY 8VXPTG5M 4KRAKX38 5BWLENS8 PR2KP7FC 9C6TA669 JCENWUL7 ZF5VULQE R4KZZL55  ERX3SJ6D G6W2Z4A6 THT BZ38 Q5LGLF79 GQ8WB9Z8 UPN4N TVL B7T97ACW UEPKP77M W9MAZVA asN Q8A7PAW  R 8FJLD7ND H9PZ2 WQE UBKURBPG BFAGJU45 VAHRF8P8 FGDKH9G9 ALPDVQGA 6ESEZN2X TCZPT48L EA7FWS4Z 8MD4K7HA DU5763DZ 6C5VT KR3 F4898J7E PZUJBFCB MMGQ2FTN 36GJKBVD KZJSJ UNM 29AUQSDV R293FQ6E TBXR7P CL ZC53R8MJ DPV 87HAY ZFC2FULC K6VTHTRU 2KBPPETF 4WJXCDZ2 FXDJP7Y7 92T46J8W JTFMHPQ2 N9XH79GC 2CK  49YSM V52UBG8B S9CLHUBQ 3B3VZHDC Q3J3YN6H UZ5Z5EZ7 NCHG C3VB YRG9DLXL  75ZYSVWT Q963A5N W 6TEGHRZU  sCX6V6S 82 A6RUM5YR BY
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+            S82 A6RUM5 YR BY9DS4YP D9M YVUC3 VBP E35ZS 3KNSJA2G VK FP6QLY  SVRTFVU  MNWXS26X K2S4KG8S 4GNP5883 HCX JEJSL 6VCNFX7C NQGG4X7P P6YJGER8 4349EU2T 8E9W5K 82 HWHFWKNW RXAETJ45  s QWEPKWJE 8SZGK2XJ QMUT8WVT WPPY6TKQ 66D69PRD RMADPXTX CHLW8BDH RLQ2BHNY ZBRA3TS3 5JZYA8AG BZWYUXCC LCJYYC2X ULF4JPJM B65U7KRZ 7MHEQGAU YAF8B3F7 6QAN3SRR N4USGA7T S2DYP9XV ZYL6DA3B YEG9ZPDX 6XAK9ELL YYP82WA3 P3ZMTL7E M ABNG5UL QA2LVK5B 848M45FK Y4VDVFP4 CDSB5WH4 GU EFDZKC BKT2NAKF 6FJYDMLU 5WZW7UXU RWQ2MAWF C7YSQ3N5 J8 SGPNME 5386 7ZCE ZR75 ENGZ KFSSV 4PG DP D JNP68 J4APS 4WB 2CW MKSMY HX68Y 6NJ R5BB 3GYR Q72S PTGK XXFW5JF H RQN 4DCC7 L8WVJB9 A LAF3TCKC 3ESBVE8R R926PT2T Y2U5WFAN B57C3GNR BCHCS98L BN7QPCHA FQD9RUG
+5˙x«“©≠
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+            S82 A6RUM5YR BY9DS4 YP D9MYVUC3 VBPE35Z S 3KNSJA2G VKFP6QLY SVRTFVUP MNWXS26X K2S4KG8 S 4GNP 883 HCXJEJSL 6 VCNFX7 C NQGG4X7 P P6 YJGE R8 4349EU2T 8E9W5K82 HWHFWKNW RXAETJ45 QWEPKWJE 8SZGK2XJ QMUT8WVT WPPY6TKQ 66D69PRD RMADPXTX CHLW8BDH RLQ2BHNY ZBRA3TS3 5JZYA8AG BZWYUXCC LCJYYC2X ULF4JPJM B65U7KRZ 7MHEQGAU YAF8B3F7 6QAN3SRR N4USGA7T S2DYP9XV ZYL6DA3B YEG9ZPDX 6XAK9ELL YYP82WA3 P3ZMTL7E MAB NG5UL QA2LVK5B 848M45FK Y4VDVFP4 CDSB5WH4 GUEFDZKC BKT2NAKF 6FJYDMLU 5WZW7UXU RWQ2MAWF C7YSQ3N5 J8SGPNME 5386  7ZCE ZR75E NGZ KFSSV4PG DPDJNP68 J4APS4WB 2CWMKSMY HX 68Y6NJ R5B B3GYR Q72SPTGK XXFW 5JFH RQN4DCC 7 L8WVJ B9A LAF3T CKC 3ESBVE8R R926PT2T Y2U5WFAN B57C3GNR BCHCS98L BN7QPCHA FQD9RUG
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              VTG56LX Y6AJH8ZR XWMW9CDM WYN7CBYS K5SZQZSH VPAXASN2 HXFHKFE6 U95T83QH KNG3BJJG 7E2PVWA4 ET97EDKG 5VW9X6QZ RM63FSJ7 L8RH ABDP 6MJ29FEG PDF3B4EZ Y  8ZKEVSY XSAX7XHG 57USSWNZ SDL3BVA2 6MMGXLUR ZN3584S B 9289S5CB ZWP3W9WQ XYT4JQU2 E449NT5W X3T9XV9Y 3EQWXSPM P6ERN5PX JLUUK5ZQ 9K7RCXCJ WS9GD3P8 UCP8K37L QMQZDZ2H DV H3W4NF N3WR4GDH TWUWFL8M KCM3KSUQ B2XGN3VX XC5BHQ5K REUSRYZ7 6FEMEYPJ ZSQYTN77 Z3DE9D8Y BCD6R6PW 2U2WXBHW D2ZM7V84 FYHEAEUJ 5A8PJ7U2 7GQCKWBH U7SLKKLN K2HM VYJA JVP7UE 5BGAU WD8 YRJYCH Q7 NVF BM6WC 7ETFT3XY Y76QXVGG 44L9GLVM Q48ZQYQ2 Z VJJVEYU PGV B6A7Q H94BVSW M V5J2LM98   4S66BBTH P65JN N52 7XBTVKAL KANT B6Y3 PVV739CU XEJCDWH8 DC3GZUH8 FEXGH4ZS ENAUEWC8 YN6ACB7M X99NVKBH BBQSFUZB LJR5BAAS LNZE5D2D L9MTWE84 DNZM5WXY YB2THTFW DLZN7PAE H4REWBLG5VJM7 UJKMZXBE ST7NY4H6 7EAE2RJ8 2AMA4VDN JPTUETJT 6UEFW45B 66RD8JFK HAHGRE44 9H9P5ZRC 2T4VVHWN 3KHYC4MB T8RW83LR 3NTCTKB2 46RJETZA QHPXWJTX STKUC9C4 S3KVZBPZ ZDVTVGU9 8QPWQG7Z 4MT6N3NP 2VP3ZQT4 N5JJ9S26 HD8H467H EZ8VA APV 6T9KBYFL 7LM MQPH8 N9V5VDP2 QQUB52V6 TEEXS2TD 2D LZAZJQ XAPGF34H  6GN 4WMX2  6 PFH3NP2 KRBNXNVT 63ZHTBG T VL6XPXS 9 CZQ Q78FR WTHXMBVB LJU7YVLC 6QAXPWR4 R3NGDLX
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              MTNR ARUA A72RQ6D5 66HUYHEA 4EKEGT2J RTN3 WKP4 QF3STG S2Z3 6 49U MD W6F9KE QH F452YU 53JZDPLB X4ZFJEVK NGVHEMSG KM4UXTWB JXXW32C9 AFAX S27R WAB56CCV 7SEAZAP6 9BD6TQR9 92FN3A67 3VT9TK7J R55YE5YD CVQ3NSEC UTCVVZVS JYX2AV2D GC49QQGR UCVLDVRA BVK38LCK MB522ZJV XMEPRJ7P V9FHDXNR 3P2ZXDCP RPGLZ8EZVZ KBTCVLCY DMLWFNW6 GXKDYVF4 MLFZ7BUC 637PH2MT KTTFCYAX 9FJD85L9 SAV2YS8Z QD44C3V3 P552GQDG LXPYKDFE 2GMWG842 92KDRWUP EAJZ3L76 XRDQFY85 FRKRNS8T TEG6D2L5 ST5FD8W9 UATW722B P5W96C58 CFLVFW A NUD6RJR WBT9U TDLCU28X XRVHTT4F YANX 4K5Y XVVGWHNL XFRS QHH7 27W9X APZ DWT X59YM UX4S6P G9 X7P23K2W  Q3T WTVWJ NLEKZ Y98 CRDPM GZX 43J5ZQH7 9GS77JH8 NNUQKBS3 4EA2QZ48 YMT3DMQ8 8L4BRYG8 2FQR8NFS WE3EYZ8F 3KRP8KQH EQ976TMN NNPFKVKJ 33C76R8H DJUWK25J 6VUFSUKT ZM29ZMEP ZPRWWE3N 27WUK7GV KRZPJC ZJ9JE65W N3ZJZNG9 CMVTL87Y TR2VQ2YW S6RJ2474 QVKWQQM6 DDXFZTCL 3B68JQVH AWPM8CEA 9UQAE4JN TLM8BTKA K327KL6D K2N5WG6Q J2YMRSJZ HBZVSHVP H88LPZEF CYHW88YJ NAJUVQQ3 VFUVVUSQ ZFYFFT3X ELYWFCFB DEUQ7S2V 6L 6YPKA WM AANPM4 H92VJKCH YFADT PMU 3ZGT2 9YR GNCTRZJJ 4S T4ZD35 97G VBLQZ D 2UXB72C P4E3KE4T D5FYV M3E NVQX Y2CA 3Q9PL367 S9VZXGVS Z9D UFJ5D LUHLWH8R FHFLF34 W6NXMD94 7BNW2YFG 6KGRLD7Q 6QK33WZA QHQWJCNA PUEVTH5P 7RGKRM9Z 95GXY9LQ 4HA9ZXGC LNKLF7U2 7YQU2WGU XQ74EAH 9W5295VD K66622NP MTJJQZJ9 4222C9TE W27TZUKA D2GUCYAP KK8VXRGX 9HBPXJL9 2V8A593M Y88LL792 JVPKU96Q E2TC3GUW TYVU6YPJ UPY94DW3 92VVUXWC DUDUZPYL
+            </div>
+
+              </div>
+
           </div>
         </div>
       </div>
+  </div>
 
-      <div class="tableDivider">
+  <div  class="boundWindow equipmentWindowB hide">
+    <div class="escape xButton">X</div>
+      <div class="innerBoundWindow eqreportScroll black">
+
+        <div class="content">
+
+          <div class=" fontTimes">
+            <div class="paragraph">
+<span class="redacted">
+MRQSQ STX 6W GHU7SB QC479R8R 9S23 TVKK N3RB3ESD 3NZ5HS ZR R7Q3K2Y9 XZTP TW8V RM5SGGVF UFBRM T29 JF5GZTLU QFA VB7YQ KF8Q5QKV 6K7YR 9WS UPGEAAUY JAF WV2KA RJA26M3J 6HNG EMHT H64ZTZLK F685Q53R APTZTF9K 4NUJ6C5Y 7HK5K42M HWAQEXYQ TJ85XDQQ ENJV72GE DYEZC2DH KBKHW2DL 5UJA2LHM DQ5VHC8X 7SC2WUPP QHF79VKE 8NUHLSAS B9495WM9 ZG3VAQWE BPWNZ5NY AZLVDNSM JQYZ5VAY AXDAMYH4 Q2S8GQKZ UH8DBQE2 NAANXZFP TLPPLTPR V3MCMRNM MFXYXMQN 2Z48L64W 5U8DMDM3 CHZ2DBRP 3ZHCJ89J FAAXE82V ATC5FWA9 Y8LPAMU7 UMULVZ8P EGNUZRGJ UTTJE2EQ Z6CD J2HF S5KJY 7XZ ZVFFZBSF GPPG ZT2K J2Q928NG 7U75M2LP HK2P XDE2 Y3 7TTZ6Y XGNQ6QRZ 3XBASKAA YR 8X8SEQ UP2 LU28Y CVJZ VKNX W3AV MMRA KG9ELXX8 EJ3P YEW6 JZR GXBBH WQW7A B26 CZ8B9G78 YRG29ZC2 DEKGN44H HD977WVF XDVZE4PR CAKSNJLN KAPN7TLU P7YDXHRR YN2JCU7P KQ87V64N PXJ4V8X6 8L33KY5U 9RDG69S5 8SU2G2B8 48ZA2QES JEGJFT49 EL2BFAFL TLEXHVC8 WZB4QSMF EEZL4RV8 29AJBBZL U323BY2H ETG3UF2V KN5ZRWK6 42FEMV22 JH2UNL4Z 9E4AMMW8 V4BPVSPQ RRWYPXSD SHZG7BNM 32BMDMCT W7USJMLZ Z7DYPVRN K9XX
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+            BF EWYSA2 JC3AVSHL 6L2P ZUGS AZZQH9 NM U8YB NGRC 9ZL WGN36 HNCG5NU5 V4KF PSLN DCH7YLLD QTX33EF7 2HFTFK7P QPJB6FP6 TTUUN7UU 4XJPV PH8 CA48HR2Y RVWY6PC8 S8MNUWAB ZX XM7RGJ Y8LJHSEG 74M5396Z 76Q5JMSX TUG83XMT PF7EECFM 2PNEX7UV D737E3DJ 9ED9HL6M BXUAN5GN HDF8JFE7 VEKXJ5PW 6NGHCA4H UGSYGPLH 7T8V5GJG EP86YY28 KSGQRMA8 QC8R7WKP SXEY5UYG F99L6SKN SBN9GNUB WN9UAVP4 SAFA38TT 653E8SCK CTHP9MX5 5B464HMR QTJCNQ9R PAQMCA5G URU6L7D4 AHTYZC9W 3YYTGT66 4M7ZFFUC 57XK2DY4 F2ZA38E4 R4YMTN4E 4RUZL8JK 7T8XZ2JC XPTNFAUR TBQG 2KRA G39UV8Z K 23YN P9VG D6HRSLAF RUE77ZAF 6FJ 7PVTM PJE 7SS5Y VPTR4CEG T4JNELMK PR6MD7HV YEV6HYT9 627TW XLR G2G2U S8G Z6D2WR3V ALWCS695 84BPE5VD DGRTJMXC 56VAZA2H 4K5ED24F HDMRJNMK 6BKS3DVW LZMLDSJJ GPT6AJZ9 YBHBHUXC DG9ME268 GD5VH642 DKW7E6SY PVDP8ECN A8NVGKG7 9MPLHA2N B9D84FR2 WX4A5GXE M5P4UQZ9 YZESB7DL SPXB4CG7 KM98BHVG 72CSRKN4 JW85ZYHF V6P2SKG9 R4W5G4RG 4A4XGYMM PEC2X5QU BSE4WA
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              NRYAFB FAQHJX5B 9L VDTVYB 2PQ3D LLN 86G TNM9H VQK X226R 862LFTSC 7HRUJRFM SSC3MAFD VXCKR9SL QSVKJ66F RXXSPDQ9 EUY Y3GBZ  Z3QDXE7E RTWK5MGN 37AV82a YU RYV535M4  LRPF HS7L 79YEU8QF BSSCWKGN 3U9P3EU6 PG9N4SZ4 7T8FS55K 6YVS7MR5 TMTL5QX3 TB24SGDH DP7KEMJZ Y3A5QG89 HRQE7P5D R85EJB6U 5YHRG6C5 NS9GLPXR CR7W6W4N AYEQ9PXQ TAGHBPE6 CRPJC7HZ AW38TT8S 5HWCWZDW VM3C97RZ ADF2YMGR 2S492P5V 45X248NS PU4SYY6C NVDT9N3V FZC68KBC 2A2TUPQW 4A5DFDZZ MNJ86EZQ DNARYLLR 4EVTLD9V LLNJ7ZLM A4PHJL2C T8SRUBZ4 N G7CARK6 Z L4B699Z PUUB C9GL QALYCTAH JJKKVS QU AY8M5 YFH N68 L9X23 V8J5 QRDV FY9KRCKQ SKLRSSCW S7Z3C5BL NNFCGHYN JSEN THXJ LS2 6A2RS 4U3QMQLad E WF9JM9YW 9G3A8WBD 254U96B2 HDB PNLZ6 VKE2QDAT K85L3SEY SMMUHEE8 73AW3NVN PYBLYKYG 3ATWR4CL 2B2K9NVN YUSF59P6 RBNF9Y7U 5SG9DN84 SW3KBCC5 3UJH6PC6 F97LXPDJ 8PMZSMXH 8JDF9UMH FKE224QF 36CNGFK8 UPXT8A8U Q9ANQ757 LG7RKH8K C4E375A7 AJGC4JCC YLAWLB8K 2MM9AFSC CAWUBX46 435W89D8 JUVZHWUA DA4UXVJF 4XK2H4NL M6KZ3MJ5 3A9L2R96 UEX2M4ZY A9SFNHKR L6WTSPDU E4BJJ TVK BUML3 WMT W2MT FN69 7MWU2 6MK J4Z HAEHG KNF6Q9BM VK7JYJVR UP6 UX8DF KZDJH4WY VM57WDSB 6DZXFJZ6 U5XLWQ9Y V46WHS MY B45CJNSP MYJ9FGPJ MVFLGMAX Us X7J9 QP4 4S4FTHQR 4YTG3E3R KKVHTU66 YK7MZUDH DA96PFBN V9826NV5 XK7GEHHB FA67VTX5 PXXVG9TU 6NLPCR35 C7J5W3SH
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+  </div>
 
-  </body>
+  <div  class="boundWindow equipmentWindowC hide">
+    <div class="escape xButton">X</div>
+      <div class="innerBoundWindow eqreportScroll black">
+
+        <div class="content">
+
+          <div class=" fontTimes">
+            <div class="paragraph">
+              <span class="redacted">
+              5Z6U XLQUEFJN PEH9 J9J8 96CG74P5 HV3HG5ES GS4B7VUN CT6BA8AK 9A9PW6JG 4LKGCFZ3 CKXVHX3G GDQ3ZNKF HB3SUVHX DF8XDQB4 RB6YAQCQ 37EZFEBC 9FUAMCG2 Z3WSMGSP 6Y6MLHCJ HTM77LX8 3CVAVFUD E2RBG7GP EGZ5678X 42GFQ4TQ DGQZHLT9 WAUT3ENJ VD6B2BAX P85H5FXM 4VGRZWFD FCQ73LUL MK9798GF D VN5LF4G ARDVFYYM 762GNF9R YMFMPRD3 MZHW5ZSG 9YLZPLJK 42UJ8X6Z BDAMS2UD X9DYSXH9 AC4LNFJU 8SRKLMJR MG32EY8H AGVHJ735 WMFH8RNA 68EGK4GH KLES 4Q7Z 9EQZNQGW Q7LC56YJ BEBYKZ6S X6JGLATX JQAPKLXA CAG4LXA8 NZN72323 V3GZLDQF 3X9CX2XX 8HV MRTVV YN62KQR7 A 7UE554M B86D6BGZ 9XW2H PLP LNHX4FWZ ZSRJCV3P LT9C4KRU 22UWPXE6 H6KZRE42 GWKMKQU3 XTLYCFSZ G6U2UAPD MY54A4PZ RG9GKQN5 LR7RM2J6 U86JA38K 3DYKUP3L 67276WHG WYGR3FMZ TJHY4VFL 53QJ84GG 39EW4KT4 GHFRK42E TGUX59RJ HWB7EE7F ELU3WGEM LZYRQLUU GXTRH9FZ B TCJL RDM X5VCLCCZ R6VT7FSS 4Y3 GC2FY 6UN7YCJM JYMZG97Q S2JPC7UP KKDRL94Z QHWFGUJ2 HNTR6QAT VZLN2JPV FHLXNS4L C3MXQCKY F8CJ2YEH RRZQQ XPL KAL5NVAZ 9K95BLHB FG39QLGY 8NPL4GGC EN79E352 BAM3SAFW 5LUW92MV 5XDJA7QN W5JNTUJH KRV UGKGE SNUYDD8P GENDS67K RKZUPSHZ 2RE6A2LM ZPW8LT4Z FGE8GKDA ZCPKJF59 26T3N8UU NBLGBUJG
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              5Z6U XLQUEFJN PEH9J 9J8 96CG74P5 HV3HG5ES GS4 B7VUN CT6BA 8AK 9A9PW6JG 4LKGCFZ3 CKXV HX3G GDQ3ZNKF HB3SUV HX DF8XDQB4 RB6YAQCQ 37EZFEBC 9FUAMCG2 Z3WSMGSP 6Y6MLHCJ HTM77LX8 3CVAVFUD E2RBG7GP EGZ5678X 42GFQ4TQ DGQZHLT9 WAUT3ENJ VD6B2BAX P85H5FXM 4VGRZWFD FCQ73LUL MK9798GF DVN5LF4G ARDVFYY M 762GNF9R YMFMPRD3 MZHW5ZSG 9Y LZPLJK 42UJ8X6Z BDAMS2UD X9DYSXH9 AC4LNFJU 8SRKLMJR MG32EY8H AGVHJ 735 WMFH8RNA 68EGK4GH KLES4Q7Z 9EQZNQGW Q7LC56YJ BEBYKZ6S X6JGLATX JQAPKLXA CAG4LXA8 NZN72323 V3GZLDQF 3X9CX2XX 8H VMRTVV YN62KQR7 A7UE554M B86 D6BGZ 9XW2HP LP LNHX4 FWZ ZSRJCV3P LT9C4KRU 22UW PXE6 H6KZRE42 GWKM KQU3 XTLYCFSZ G6U2UAPD MY54A4PZ RG9GKQN5 LR7RM2J6 U86JA38K 3DYKUP3L 67276WHG WYGR3FMZ TJHY4VFL 53QJ84GG 39EW4KT4 GHFRK42E TGUX59RJ HWB7EE7F ELU3WGEM LZYRQLU U GXTRH9FZ BTCJLRDM X5VCLCCZ R6VT7FSS 4Y3G C2FY 6UN7YCJM JYMZG97Q S2JPC7UP KKDRL94Z QHWFGUJ2 HNTR6QAT VZLN2JPV FHLX NS4L C3MXQCKY F8CJ2 YEH RRZQQXPL KAL5NVAZ 9K95BLHB FG39QLGY 8NPL4GGC EN79E352 BAM3SAFW 5LUW92MV 5XDJA7QN W5JNTUJH KRV UGKGE SNUY DD8P GENDS67K RKZUPS HZ 2 RE6A2LM ZPW8LT4Z FGE8GKDA ZCPKJF5 9 26T3N8UU NBLGBUJG
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              6E YHJLHC2C G7527S3E BGB24MBF 75U2W H8A 5KSVDLX4 FE2XRR2H YS8AR UR6 MK FEGH3R 55ED3 2YD W5JJT6 57 EWUXCTYJ B8QZ MMPT QL6ZAGES EBNL8S4L 86KNMMFJ E8HAWXL7 C8NBH3ZV H5JDWHVC 57A37PPK EKQ4 9NN3 NFKXN7J8 KR2WSYTQ WEPTKVBG 32JRT8AU JGG8UZZ9 HSQZW5QH G8MG4KZ5 3X8H X4M S7TGPKMX 7HSX4TLK GVL4FBKJ UY2AGY2Q AR23D23P GK5C7DWX L3WCF L9P ACHEZAUD JJM8DWBE PY2UPNCR MPEK5Y27 Q2PJ3HVU TP9LHXJK UH5W26KU 4HBRTUSX HHNEBTEL 5BDDGBKS KTP8RRDM 8EKU6XEY 654AB8XH E62HWMDS CCVVSZSW LEAMT7KA WH9QNTWE SKERDCYY YT5L7DF8 E9VNW4BD UYFDY 7EL SKVA V4L8 SSMWS QFK E89MLGND MJGQBVM5 GWL32J QN 94NFM 8UY E7DW4K3A DEM28LE2 YJAXT WWE BW57BC5H NDYK9G6N NBMTJW4T CJ8WGVJZ UBVW7MX4 6Q8BT4JZ 74FVP2TH MJJESGRL SHPMLEA9 U4RF8BC2 NJPEJPFE ME8W4RR6 MLE9WV8X BFSZB8 M 7JEJFYWW SVT QRPDT U79BE62 R WXUXKJEZ VBM5DWJF MSHGZVY5 BR 9DF6JP BMRFP AM9 SVZFHSMP 7U3BSGVN WVTAEFQS 897L3TZS M9EXS
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              SNSV PJFV2ZQY 5G9ADX2X F2SG3DM6 K9 JH7JNB SL2 2F4W7 QL9BE77A MF6JH DNW 6HX8 SYKA 83VZ77VY 93VV4 KJN FAK9RV3S YEUSBX 4W ZZPSY74J ZKG9 9TVE FPG9PRFX JRCZ49FK NNHLFTBX MRGSZGUH Y3GLCFRM XZ344U9W 7JGXWGQ3 X5QBPHMW ACZFCPYN WHGFXB7M 77U2SKKL 4G3V6Q75 KCSVEPN3 XUVQQ5 SE MNQJF2HS GCLML9DJ 33 F32WDT JL3K8CQQ 2R2QT7JP X2ERUS
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="boundWindow equipmentWindowD hide">
+    <div class="escape xButton">X</div>
+      <div class="innerBoundWindow eqreportScroll black">
+
+        <div class="content">
+
+          <div class=" fontTimes">
+            <div class="paragraph">
+              <span class="redacted">
+              YUEWF KN8A HNJ5 BL6596RH 2EU3 QZJN TX45S2ZE RBUM6HX2 M8JWPTWS 3H72RAQT VUYABEH5 8X6K2PM6 ASLPL H8K 22B3 R9QZ 3STLQHX4 HPSQR7Z7 K8NFG34X CKFAJ6DR TG57DKPK U2UMNW4B LRCLE XRZ GJN56EKC VTG79P55 W5KJNENM TQE9B3SM K7MPF58L 4SZ85XBQ VDN3K5Q5 UL5 8AUQE RDGL7EKL FH 4TRA2S LU26BVUQ F4KS6XVT 6SF HRPWT BQ5WVB5C 2YAJ8WC5 2ZZWNKSY 4F4CK2ZF QM7XDPPS RR5KYRQL U62FQR29 QK4LFLGD WS9NMAAJ TWPTQEEW 3TQJWC8F GFXRVWTS Y9XHZ6BW WBNZJW6D CPUBWE94 Y2UQ9H6V 89ZCTL7E YJ7U4RMJ V22SGNS2 JC6Q8S56 5P3WNUJJ MQQU5UXB TQWPG 98X 35T BXTCZ 99JB8JN8 GPXX56W6 3T2BBWVC JVUPBMNE F9NNYB5J 93N75EGJ P7KB53T6 9R7Q 3VGX JKZ 3FK5V XN3WDHU8 U64Q67A8 P7XFQK8N DL5ELWYU XPYJMUWV 6V8Q6QQE W7ABVH7T SYH JHTQ 2 E7ZJ4TJ ZXJPTHBU 8TJYZA4U 3M6F75VX YT6PFYCH AVZ6HY2L 33R5326Q GGNX5T PN 9RL KS3W4 PGDHBFCL EYM9T45D BZ68B847 YRMZANVS T7C4J4MP 95S3Z796 ANL AFPF5 A5Y78AY6 VSJURFVG R5PHEUML 6LTT8ZBE KND2E8RC LL7BJF3Z EBDMTEBR T74HGJVG W9NL5P88 TYSPM7BY LFBJ6ET2 XSA736RA A26LTHHB VD6LHRJQ Z8YEBNHU RTYM7Z3X 48VDWKRS 3E3QAWMU PCVU4JUW FZ9WF4 U2 Y558 MSYV U3UX8SJC FC6XSGEX FVZ25C5S AEATAR98 PPHC7FBC VV4BWWV7 VWBD 9MGW SA 2XG7AF D2NXPSJH NG9ERY7G LCAZS5XT HYXXDF4U 6G88AMQX J6KEBY7P 4ZWH9
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              7XJ226L D8VC9VHF K8ATE2TF 9MKW5MPP SA3LTSZ5 DRBT8NTS KRQLCEPS YRYNNHLX 8TDLKQBH RUTCV33L JVCAZQ6B TVET6DG3 367DLF6Y B2CMCS 3U CRCGR9HY DF37Q54C P5BN9 CGN GG7SHGJ7 PDXZQGZ8 Y8QSDSPE 9RB E7Z6B 73W Z73B7 H7S H39WR T7UH MAWP 62SEFE2S JPQVREBS UUY J5V4X 5YQHZEDT VJYTRTTE 2CTWUH7E MZC5GVHG 97 FEF8WX S4V6 DBNX XB H355E9 84QL JDYU V7V 37K74 LV3X29C5 HS8QH764 LQXZMBWP YSXP4PQF JKNW9 4RA 8V3HKAL4 M72SAL5H U2W98LRK AQM8EBFH CSQCAN9X PDPRA9RC EDMNPXUK R5BJBQ69 NCKB2MQ6 6XK6ZRPJ EAGQDBTY AXW6BDNJ 9P99R3UM HDZ5X8NK QPWHG8NL G9LZEMAR FPR6SSEU DBN257J8 2AMUC6 EA XL6FXDSM RTPBBW86 7S9KT 4NN E4HXT93L Z2HE4YFU 95FFRRV7 5 SXGD34L 4KMVXD VT 84EJ2 B77 8EY Q9EWP 4B94DRK3 XBNCX3Z2 GPPYCY3 M RBKUCE48 EZU 9CD97 ZKLM4NS2 EPQW P5P7 WB2N4ANJ ZSFVF QNB N8HRQWW 5 FHGGEPCG 3MHQMXH2 H5QGUF5R KD3J92NU XSMDV2DG JRNAH HB5 DCDUWLJQ BCLKNU NM QU9Z38XR ZALB2JKK BD88MBCQ V
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              YVAYSM U8LM7L3R SE2ZU9BP J6VJUE7L R7DQ7AXX XRTN7VS8 E2UG2M2A 585ANMYS LCKQH YLD BM46WWZT S7W6KQ4L 62R7XZ7D R55C7 NSM KN7APW FK 8KQ7PY47 BU88GJJX 3343WV3D A4HYD4UC RVHCREPN EZ9N2WBD 686RB3AP XG2Q ZV7F C8DWQYMG BUK8L8FE 9L5QZY5Q 3EJ7N4X5 8B 6HRB6A TU25JUE5 W8E 9Y9MN P5K7CV84 R6SR6VVC 32G9PMNW YKWXLDXH M9YV74VH 7ECM R5DT A2CTCWQK 7W8D5PHG BW5BG27A JJAG7CAG HWDLEEWS 9HYS2K6J 78YU5EMW 4BHQT73S Q5ZHGWBV 4K2GDQYN N6XXT5QG 4LW8BLAN LGW2VULR DQVK5D4R D667MF3J AEPXF6KJ M733S9SH BUWH7UL3 YZSHM56T 2M5WWD4S RFWZPFNA 362JWQXU Q5PMZRBG 6GCMS
+            </div>
+            <div class="paragraph">
+              <span class="redacted">
+              4BP9B VCCH7LJM NXE45W9S 3BMNY EEM UAZSE5JQ FGNDFCWM TCBP42LB RC9BFK4X TLBQ NN67 Z9A7C 8B6 WWDW82YU L7C7S3RG G357PGAQ ZPPZM7R6 QZJ U9DK5 NQRRRQV3 5YTVM S5D A6DEZENS A4F69UMG EM62C7BH  VNLH92 F3 QQ4ADNHR 2HYD6HRS W6ARRPP9 UNYYA79D 7QWXSMPK ARPS7WLR BR6WD M8 RWU9AXJW 9GWW6FBR TSLKXSYA QU4439S4 KMXKMNCK C6EWUU2D FYZX3NH4 L3V6EQQU AV9YX5ZT KDEZRGSF UYPNYGG9 3CJBPTAZ WQNZ26A3 R7SK85KM Q8FUFA9Q AJMFQPQD WM9FQX75 LP4Z72MD 3AM3DSLE 4W27Q4BS H2JF9XRA HZX5HWLB NDLSHR8X Z4FSKNGQ QJTC3YQD 432U47PD MPXGEPL7 A8DRS86S 72A5Y5RZ QYXM7AV7 AR3FJSLE J34HCZU2 4ZRQ2KTK N74YLDGU D QSXQXUD SQVTAAWT VW78GNQL 25NGEGFY 7F2LAWQJ WZ2ZSGX7 S2M9CWK5 EAZ8F6KM 65V5TSFX KWYQNYT7 JM2BY59G KYKQW6J3 EJA4MDTZ 4VXTNA3W M 23KMCKJ D3 DR8E4S WQEN 4R7L N3E LLWPW RRBP W9A4 7DXZ72Y2 4CAGRSFC P2JXGUMG F2EXAYYK 3V6UAYRD Y2GQPTQ5 F8NU5UBA XUPTVQ9F 6EC4P493 3YVF6
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div id=draggable7 class="boundWindow hide imgEq1">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq1.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable8 class="boundWindow hide  imgEq2">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq2.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable9 class="boundWindow hide imgEq3">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq3.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable10 class="boundWindow hide imgEq4">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq4.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable11 class="boundWindow hide  imgEq5">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq5.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable12 class="boundWindow hide  imgEq6">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq6.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable13 class="boundWindow hide  imgEq7">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq7.jpg" alt="">
+        </div>
+      </div>
+  </div>
+  <div id=draggable14 class="boundWindow hide  imgEq8">
+    <div class="escape xButton ">X</div>
+      <div class="innerBoundWindow">
+        <div class="content">
+          <img src="assets/images/imgEq8.png" alt="">
+        </div>
+      </div>
+  </div>
+
+</body>
 </html>
