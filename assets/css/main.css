@@ -620,5 +620,32 @@ h4   {
   width: 50%;
 }
 .siteMap{
+  position: absolute;
+  left: 30%;
+  top: 10%;
   width: 50%;
+}
+.email{
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  width: 20%;
+}
+.sponsor{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.givers{
+  width: 80%;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.newswindow{
+  width: 40%;
+  position: absolute;
+  left: 59%;
+  top: 2vh;
+  height: 93vh;
 }

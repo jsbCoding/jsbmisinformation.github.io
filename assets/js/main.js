@@ -97,12 +97,12 @@ $('.infoItem2').click(function(){
   $('.terms').addClass('show');
 });
 $('.infoItem3').click(function(){
-  $('.siteMap').removeClass('hide');
-  $('.siteMap').addClass('show');
+  $('.sponsor').removeClass('hide');
+  $('.sponsor').addClass('show');
 });
 $('.infoItem4').click(function(){
-  $('.siteMap').removeClass('hide');
-  $('.siteMap').addClass('show');
+  $('.email').removeClass('hide');
+  $('.email').addClass('show');
 });
 
 
