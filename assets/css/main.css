@@ -459,9 +459,15 @@ h4   {
 }
 .imgReportC2{
     position: absolute;
+  max-width: 25%;
+  left: 50%;
+  top: 40%;
+}
+.imgReportC3{
+    position: absolute;
   max-width: 10%;
-  left: 0%;
-  top: 0%;
+  left: 70%;
+  top: 33%;
 }
 .logoInner{
  width: 100%;
