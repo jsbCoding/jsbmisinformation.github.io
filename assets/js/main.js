@@ -87,6 +87,25 @@ $('.eq.readMoreButtonD').click(function(){
   $('.equipmentWindowD').removeClass('hide');
   $('.equipmentWindowD').addClass('show');
 });
+
+$('.infoItem1').click(function(){
+  $('.siteMap').removeClass('hide');
+  $('.siteMap').addClass('show');
+});
+$('.infoItem2').click(function(){
+  $('.terms').removeClass('hide');
+  $('.terms').addClass('show');
+});
+$('.infoItem3').click(function(){
+  $('.siteMap').removeClass('hide');
+  $('.siteMap').addClass('show');
+});
+$('.infoItem4').click(function(){
+  $('.siteMap').removeClass('hide');
+  $('.siteMap').addClass('show');
+});
+
+
 //NEWS/////////
 
 

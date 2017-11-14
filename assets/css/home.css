@@ -86,11 +86,9 @@ body{
   left: 20%;
 }
 .linksBar{
-
   top: 40%;
-  left: 50%;
+  left: 60%;
   position: fixed;
-
   width: 35%;
 }
 .homeLogo{

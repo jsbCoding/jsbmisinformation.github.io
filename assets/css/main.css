@@ -591,3 +591,34 @@ h4   {
   left: 70%;
   top: 33%;
 }
+
+.newsFeedTitle{
+  text-align: center;
+}
+.newsDate{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.newsItemA{
+  padding: 5px;
+  border: 2px solid white;
+  width: 50%;
+}
+.newsItemB{
+  padding: 5px;
+  border: 2px solid white;
+  width: 50%;
+}
+.newsItemC{
+  padding: 5px;
+  border: 2px solid white;
+  width: 50%;
+}
+.newsItemD{
+  padding: 5px;
+  border: 2px solid white;
+  width: 50%;
+}
+.siteMap{
+  width: 50%;
+}
