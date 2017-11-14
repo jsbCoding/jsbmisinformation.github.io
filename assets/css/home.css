@@ -60,6 +60,10 @@ body{
   background-color: black;
   min-height: 100px;
 }
+.flexinnerBoundWindow img{
+  max-height: 100px;
+  max-width: 100px;
+}
 .innerBoundWindowWrap{
   padding: 5px;
   display: flex;

@@ -12,19 +12,41 @@ $('.xButton.escape').click(function(){
 });
 //REPORTS///////////
 
-$('.content .readMoreButtonA').click(function(){
-  $('.boundWindow.reportWindowA').removeClass('hide');
-  $('.boundWindow.reportWindowA').addClass('show');
+$('.readMoreButtonA').click(function(){
+  $('.reportWindowA').removeClass('hide');
+  $('.reportWindowA').addClass('show');
+
+  $('.imgReportA1').removeClass('hide');
+  $('.imgReportA1').addClass('show');
+  $('.imgReportA2').removeClass('hide');
+  $('.imgReportA2').addClass('show');
 });
 
-$('.content .readMoreButtonB').click(function(){
-  $('.boundWindow.reportWindowB').removeClass('hide');
-  $('.boundWindow.reportWindowB').addClass('show');
+$('.readMoreButtonB').click(function(){
+  $('.reportWindowB').removeClass('hide');
+  $('.reportWindowB').addClass('show');
+
+  $('.imgReportB1').removeClass('hide');
+  $('.imgReportB1').addClass('show');
+  $('.imgReportB2').removeClass('hide');
+  $('.imgReportB2').addClass('show');
+  $('.imgReportB3').removeClass('hide');
+  $('.imgReportB3').addClass('show');
+  $('.imgReportB4').removeClass('hide');
+  $('.imgReportB4').addClass('show');
 });
 
-$('.content .readMoreButtonC').click(function(){
-  $('.boundWindow.reportWindowC').removeClass('hide');
-  $('.boundWindow.reportWindowC').addClass('show');
+$('.readMoreButtonC').click(function(){
+  $('.reportWindowC').removeClass('hide');
+  $('.reportWindowC').addClass('show');
+
+  $('.imgReportC1').removeClass('hide');
+  $('.imgReportC1').addClass('show');
+  $('.imgReportC2').removeClass('hide');
+  $('.imgReportC2').addClass('show');
+  $('.imgReportC3').removeClass('hide');
+  $('.imgReportC3').addClass('show');
+
 });
 
 //NEWS/////////
