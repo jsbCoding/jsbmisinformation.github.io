@@ -88,6 +88,22 @@ $('.eq.readMoreButtonD').click(function(){
   $('.equipmentWindowD').addClass('show');
 });
 
+$('.newsItemA').click(function(){
+  $('.newsReport1').removeClass('hide');
+  $('.newsReport1').addClass('show');
+});
+$('.newsItemB').click(function(){
+  $('.newsReport2').removeClass('hide');
+  $('.newsReport2').addClass('show');
+});
+$('.newsItemC').click(function(){
+  $('.newsReport3').removeClass('hide');
+  $('.newsReport3').addClass('show');
+});
+$('.newsItemD').click(function(){
+  $('.newsReport4').removeClass('hide');
+  $('.newsReport4').addClass('show');
+});
 $('.infoItem1').click(function(){
   $('.siteMap').removeClass('hide');
   $('.siteMap').addClass('show');
